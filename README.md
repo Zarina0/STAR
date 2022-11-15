@@ -25,10 +25,10 @@ class Main(Frame):
         for bt in btns:
             com = lambda x=bt: self.logicalc(x)
             Button(text=bt, bg="#FFF",
-                   font=("Times New Roman", 15),
+                   font=("Times New Roman", 16),
                    command=com).place(x=x, y=y,
-                                      width=115,
-                                      height=79)
+                                      width=110,
+                                      height=80)
             x += 117
             if x > 400:
                 x = 10
